@@ -15,10 +15,9 @@
     <form>
         <fieldset class = "range">
             <legend>Rate your experience on a scale of one to five</legend>
-            <input type = "range" min = "0" max = "5" list = "tickmarks" value = "0">
+            <input type = "range" class = "range" min = "1" max = "5" list = "tickmarks" value = "0">
             
             <datalist id="tickmarks">
-              <option value="0">
               <option value="1">
               <option value="2">
               <option value="3">
@@ -30,9 +29,11 @@
 
         <fieldset class = "range">
             <legend>Pick another number between one and five</legend>
-            <input type = "number" min = "0" max = "5" value = "0">
+            <input type = "number" class = "num" min = "0" max = "5" value = "0">
          </fieldset>
     </form>
-    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
