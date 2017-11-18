@@ -1,0 +1,26 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+}
+
+header, form{
+    padding: 2em;
+}
+
+header{
+    text-align: center;
+}
+
+form{
+    border: 1px solid black;
+    width: 50%;
+}
+
+fieldset{
+    padding: 3em;
+}
+
+input{
+    text-align: center;
+    width: 50%;
+}
